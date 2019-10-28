@@ -1,0 +1,712 @@
+@media (min-width: 992px){
+    .col-md-3 {
+        width: 220px;
+    }
+    .sideleft2 {
+        width: 302px;
+    }
+    .sideright{
+        width: 302px;
+    }
+    .aboutcrs{
+        width: 78%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .col-md-9 {
+        width: 70%;
+    }
+    .main2{
+        width: 60%;
+    }
+    .tabs__caption{
+        margin-top: 15px;
+    }
+    .tabs__caption li{
+        padding: 0 25px 0 0;
+    }
+    .courses .tabs__content li{
+        text-align: center;
+        min-height: 210px;
+        position: relative;
+    }
+    .courses .tabs__content li h3{
+        text-align: center;
+        width: 100%;
+        height: 32px;
+        display: block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    .progress{
+        position: relative;
+        bottom: 0;
+        width: 137px;
+        margin: 0 auto;
+    }
+    .crscontent p{
+        margin-top: 0;
+        max-width: 100%;
+    }
+    .crscontent{
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+        height: 144px;
+        overflow: hidden;
+    }
+    .courses .tabs__content li img{
+        float: none;
+        margin: 0 auto 12px auto;
+        display: block;
+    }
+    .leftcont{
+        width: 60%;
+    }
+    .namefriend{
+        padding: 0;
+    }
+    .tabs__content ul{
+        padding-left: 14%;
+    }
+    .crstitle{
+        font-size: 18px;
+    }
+    .about {
+        width: 72%;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .prr{
+        width: 146px;
+    }
+    .prr h3{
+        margin-top: 0;
+    }
+    .period{
+        width: 45%;
+        margin-top: 20px;
+    }
+    .studs{
+        width: 97px;
+        padding-left: 38px;
+        padding-top: 0;
+        height: 35px;
+        background: url(../img/student2.png) no-repeat 6px 3px;
+    }
+    .vipusk{
+        width: 97px;
+        padding-left: 38px;
+        padding-top: 0;
+        height: 35px;
+        background: url(../img/graduate.png) no-repeat 0 3px;
+    }
+    .crsdate{
+        width: 45%;
+    }
+    .studs span{
+        margin-top: 6px;
+        float: left;
+        margin-left: 0;
+    }
+    .vipusk span{
+        margin-top: 6px;
+        float: left;
+        margin-left: 0;
+    }
+    .aboutcrs, .teacher{
+        height: 215px;
+    }
+    .aboutcrs{
+        width: 73%;
+    }
+    .aboutcrs2{
+        height: 245px;
+        position: relative;
+    }
+    .edit{
+        height: 200px;
+        position: relative;
+    }
+    .progres{
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: 0;
+        padding-left: 101px;
+    }
+    .aboutcrs2 .progress{
+        margin-left: 101px;
+    }
+    .aboutcrs2 .crsdate{
+        position: absolute;
+        left: 131px;
+        top: 198px;
+    }
+    .progress{
+        position: absolute;
+        bottom: 0;
+        width: 137px;
+        margin-bottom: 0;
+        top: 168px;
+    }
+}
+@media (max-width: 1200px){
+    .msgbodyfull{
+        width: 84%;
+    }
+    .leftmenu, .maincontent{
+        margin-top: 20px;
+    }
+    .topcont li a{
+        padding: 0 5px;
+    }
+    .support{
+        float: right;
+        margin: 0;
+    }
+}
+@media (max-width: 992px){
+    .toplinks{
+        margin-left: 25px;
+    }
+    .main2{
+        width: 100%;
+        float: left;
+    }
+    .sideleft2{
+        width: 100%;
+    }
+    .leftcont{
+        width: 100%;
+        margin-right: 0;
+    }
+    .sideright {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .aboutcrs{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .teacher{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .teacherbox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .period, .studs, .vipusk, .crsdate {
+        font-size: 12px;
+        font-weight: normal;
+        color: #8e8e8e;
+        padding-top: 1px;
+        width: 50%;
+        margin: 7px 0;
+    }
+    .crstitle{
+        margin-top: 12px;
+    }
+    .crsimg{
+        margin-bottom: 15px;
+    }
+    .about p {
+        margin-bottom: 28px;
+    }
+    table.rg-table td.text{
+        width: 94px;
+    }
+    .studimg{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .studname{
+        width: 100%;
+        width: 175px;
+        text-align: center;
+    }
+    .progres{
+        margin-top: 2px;
+    }
+    .progress{
+        position: relative;
+    }
+    .leftmenu, .maincontent{
+        margin-top: 0;
+    }
+    .topcont ul{
+        border: none;
+        width: 80%;
+        display: table;
+        float: left;
+    }
+    .topcont li a {
+        padding: 0 10px;
+    }
+    .editlinks{
+        width: 100%;
+        padding-top: 20px;
+        height: 150px;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .col-xs-9 {
+        width: 60%;
+    }
+    .profile{
+        margin-right: 15px;
+    }
+    .lastonline{
+        width: 100%;
+    }
+    .col-md-5{
+        width: 41.66666667%;
+        float: left;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+        float: left;
+    }
+    .tabs__caption{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .tabs__caption li{
+        padding: 0 25px 0 0;
+    }
+    .courses .tabs__content li{
+        text-align: center;
+        min-height: 210px;
+        position: relative;
+    }
+    .courses .tabs__content li h3{
+        text-align: center;
+        width: 100%;
+        height: 32px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .crscontent p{
+        margin-top: 15px;
+    }
+    .crscontent{
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+        height: 144px;
+        overflow: hidden;
+    }
+    .courses .tabs__content li img{
+        float: none;
+        margin: 0 auto 12px auto;
+        display: block;
+    }
+    .newsbox .tabs__content li{
+        padding: 15px 0;
+    }
+    .newsbox .tabs__caption li:last-child{
+        padding-right: 0;
+    }
+    .newsbox .tabs__caption{
+        margin-left: 25px;
+    }
+}
+@media (max-width: 768px){
+    .header .logo {
+        margin: 19px 0 0 0px;
+    }
+    .toplinks {
+        margin-left: 13px;
+        width: 120px;
+        padding-top: 15px;
+    }
+    .toplinks a {
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+    .profile {
+        margin-right: 15px;
+        width: 156px;
+    }
+    .userbox{
+        margin-top: 170px;
+    }
+    #page-content-wrapper{
+        padding: 20px 15px 0 15px;
+    }
+    .sideleft{
+        width: 100%;
+    }
+    .box{
+        width: 47%;
+    }
+    .followbox{
+        float: right;
+    }
+    .recommended{
+        width: 100%;
+    }
+    .recommended li{
+        width: 33%;
+    }
+    .recommended li span{
+        padding-left: 12px;
+        word-wrap: break-word;
+    }
+    .col-xs-9 {
+        width: 100%;
+    }
+    .col-md-5{
+        width: 41.66666667%;
+        float: left;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+        float: left;
+    }
+    .tabs__caption{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .tabs__caption li{
+        padding: 0 25px 0 0;
+    }
+    .courses .tabs__content li{
+        text-align: center;
+        min-height: 210px;
+        position: relative;
+    }
+    .courses .tabs__content li h3{
+        text-align: center;
+        width: 100%;
+        height: 32px;
+        display: block;
+        vertical-align: middle;
+    }
+    .progress{
+        position: absolute;
+        bottom: 0;
+        width: 137px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .crscontent p{
+        margin-top: 0;
+    }
+    .crscontent{
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+        height: 144px;
+        overflow: hidden;
+    }
+    .courses .tabs__content li img{
+        float: none;
+        margin: 0 auto 12px auto;
+        display: block;
+    }
+    .tabs__caption {
+        margin-left: 25px;
+        margin-bottom: 52px;
+    }
+    .about .progress{
+        position: relative;
+    }
+    .leftmenu .box{
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    .about{
+        width: 100%;
+        float: left;
+    }
+    .prr{
+        width: 100%;
+        float: left;
+    }
+    .prr h3{
+        margin-bottom: 10px;
+    }
+    table.rg-table td, table.rg-table td.text{
+        width: 100%;
+        float: left;
+        background: #fff;
+        min-height: 70px;
+        border-right: none;
+        padding: 10px 0;
+    }
+    table.rg-table tr{
+        border-bottom: 1px solid #BCF0ED;
+        width: 100%;
+        float: left;
+    }
+    .studimg, .studname {
+        margin-top: 15px;
+    }
+    .sign{
+        margin: 30px auto 10px auto;
+    }
+    .studcount{
+        padding-top: 23px;
+    }
+    .mobilefix{
+        width: auto;
+        display: table;
+        margin: 0 auto;
+    }
+    .aboutcrs2 .prr{
+        margin-top: 15px;
+    }
+    .tests{
+        margin-right: 15px;
+    }
+}
+@media (max-width:560px){
+    .tabs__caption{
+        margin-left: 0;
+        width: 100%;
+    }
+    .newsbox .tabs__caption {
+        margin-left: 20px;
+        width: auto;
+    }
+}
+@media (min-width : 481px) and (max-width : 562px) {
+    .profile{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        margin-right: 0;
+    }
+    .profile .username{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .profile .userpic{
+        margin-top: 7px;
+        margin-left: 20px;
+    }
+    .profile .userarrow{
+        margin-top: 15px;
+    }
+    .userpopup{
+        top: 75px;
+        width: 130px;
+    }
+}
+
+@media (max-width : 480px) {
+    .header{
+        height: 128px;
+    }
+    .toplinks{
+        float: left;
+        width: 300px;
+        clear: both;
+        margin-left: -89px;
+        margin-top: 7px;
+    }
+    .toplinks a:first-child{
+        margin-right: 18px;
+    }
+    .profile{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 100px;
+        margin-right: 0;
+    }
+    .header .logo a{
+        width: 100px;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    .profile .username{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .profile .userpic{
+        margin-top: 7px;
+        margin-left: 20px;
+    }
+    .profile .userarrow{
+        margin-top: 15px;
+    }
+    .userpopup{
+        top: 88px;
+        width: 130px;
+    }
+    .userbox {
+        margin-top: 130px;
+    }
+    #page-content-wrapper{
+        padding: 20px 15px 0 15px;
+    }
+    .sideleft{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .box{
+        width: 100%;
+    }
+    .followbox{
+        float: right;
+    }
+    .recommended{
+        width: 100%;
+    }
+    .recommended li{
+        width: 33%;
+    }
+    .recommended li span{
+        padding-left: 12px;
+        word-wrap: break-word;
+    }
+    .col-xs-9 {
+        width: 100%;
+    }
+    .col-md-5{
+        width: 41.66666667%;
+        float: left;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+        float: left;
+    }
+    .tabs__caption{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .tabs__caption li{
+        padding: 0 15px 0 0;
+        margin-bottom: 12px;
+    }
+    .courses .tabs__content li{
+        text-align: center;
+        min-height: 215px;
+        position: relative;
+    }
+    .courses .tabs__content li h3{
+        text-align: center;
+        width: 100%;
+        height: 32px;
+        display: block;
+        vertical-align: middle;
+    }
+    .progress{
+        position: absolute;
+        bottom: 0;
+        width: 90px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .crscontent p{
+        margin-top: 0;
+        height: 54px;
+        overflow: hidden;
+    }
+    .crscontent{
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+        height: 144px;
+        overflow: hidden;
+    }
+    .courses .tabs__content li img{
+        float: none;
+        margin: 0 auto 12px auto;
+        display: block;
+    }
+    .tabs__caption {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .newsbox .tabs__caption {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .inputbox{
+        width: 75%;
+    }
+    .newsbox .tabs__content li{
+        padding: 15px 0;
+    }
+    .rightfooter {
+        margin-top: 14px;
+    }
+    .rightfooter a{
+        margin-bottom: 15px;
+    }
+    .newshead, .newsintro{
+        width: 100%;
+        display: block;
+    }
+    .sepline{
+        left: 0;
+        width: 100%;
+    }
+    .addnews input.txt{
+        padding: 0 40px 0 12px;
+    }
+    .addnews input.sbmbtn{
+        width: 34px;
+    }
+    .newsbox{
+        padding-bottom: 30px;
+    }
+    .msgbottom .inputbox{
+        width: 65%;
+    }
+    .period, .studs, .vipusk, .crsdate{
+        width: 100%;
+    }
+    .aboutcrs2 .crsdate{
+        position: absolute;
+        margin-top: -20px;
+    }
+
+}
+@media (max-width : 390px) {
+    .friendsbox .tabs__content li{
+        width: 100%;
+    }
+    .friendsbox .tabs__content li:hover .frwrap{
+        left: 16%;
+    }
+    .crsimg{
+        width: 100%;
+        float: left;
+        margin: 0 0 15px 0;
+    }
+    .crsimg img{
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+        width: 80px;
+    }
+    .aboutcrs{
+        padding: 15px;
+    }
+    .studs {
+        background: url(../img/student2.png) no-repeat 0;
+    }
+    .crstitle{
+        text-align: center;
+    }
+}

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Моя страница</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/jquery/tether.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default no-margin">
+        <div class="container">
+            <div class="navbar-header fixed-brand">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"></button></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="logo"><a href="index.html"></a></div>
+                <div class="toplinks">
+                    <a href="selection.html">Каталог курсов</a>
+                    <a href="#">Преподователи</a>
+                </div>
+                <div class="profile">
+                    <div class="username">Артем Чудов</div>
+                    <div class="userpic"><a href="#"><img src="img/userpic.png"></a></div>
+                    <div class="userarrow"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                    <div class="userpopup">
+                        <a href="mypage.html">Моя страница</a>
+                        <a href="#">Выход</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div id="wrapper" class="toggled-2">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+                    <li>
+                        <a href="mypage.html"><span class="icon home"></span><div class="link">Моя страница</div></a>
+                    </li>
+                    <li>
+                        <a href="friends.html"><span class="icon friends"></span><div class="link">Друзья</div></a>
+                    </li>
+                    <li>
+                        <a href="dialog.html"><span class="icon dialog"></span><span class="countmsg">2</span><div class="link">Сообщения</div></a>
+                    </li>
+                    <li>
+                        <a href="passing.html"><span class="icon news"></span><div class="link">Новости</div></a>
+                    </li>
+                    <li>
+                        <a href="selection.html"><span class="icon list"></span><div class="link">Лист</div></a>
+                    </li>
+                    <li>
+                        <a href="edit.html"><span class="icon learning"></span><div class="link">Настройки</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon editor"></span><div class="link">Редактор</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon search"></span><div class="link">Поиск</div></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="col-lg-12">
+                        <div class="col-xs-3 col-md-3 sideleft">
+                            <div class="userbox box">
+                                <img src="img/userpic.png">
+                                <p><a href="#">изменить фото</a></p>
+                                <a class="boxbtn" href="#">Написать сообщение</a>
+                                <a class="boxbtn" href="#">Подписаться</a>
+                            </div>
+                            <div class="following followbox box">
+                                <h2>Мои подписки<span class="fcount">144</span></h2>
+                                <ul>
+                                    <li><a href="#"><img src="img/foto1.png" alt=""><p>Анатолий</p></a></li>
+                                    <li><a href="#"><img src="img/foto2.png" alt=""><p>Григорий</p></a></li>
+                                    <li><a href="#"><img src="img/foto3.png" alt=""><p>Стивен</p></a></li>
+                                    <li><a href="#"><img src="img/foto3.png" alt=""><p>Стивен</p></a></li>
+                                    <li><a href="#"><img src="img/foto1.png" alt=""><p>Анатолий</p></a></li>
+                                    <li><a href="#"><img src="img/foto2.png" alt=""><p>Григорий</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="followers followbox box">
+                                <h2>Мои подписчики<span class="fcount">23</span></h2>
+                                <ul>
+                                    <li><a href="#"><img src="img/foto1.png" alt=""><p>Анатолий</p></a></li>
+                                    <li><a href="#"><img src="img/foto2.png" alt=""><p>Григорий</p></a></li>
+                                    <li><a href="#"><img src="img/foto3.png" alt=""><p>Стивен</p></a></li>
+                                    <li><a href="#"><img src="img/foto3.png" alt=""><p>Стивен</p></a></li>
+                                    <li><a href="#"><img src="img/foto1.png" alt=""><p>Анатолий</p></a></li>
+                                    <li><a href="#"><img src="img/foto2.png" alt=""><p>Григорий</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="recommended box">
+                                <a class="reload" href="#"></a>
+                                <h2>Рекомендуемые<br> курсы</h2>
+                                <ul>
+                                    <li><img src="img/rec1.png"><span><a href="#">Генетика для школьников</a></span></li>
+                                    <li><img src="img/rec2.png"><span><a href="#">Основы механики</a></span></li>
+                                    <li><img src="img/rec3.png"><span><a href="#">Программирование для Андроид</a></span></li>
+                                </ul>
+                                <a class="boxbtn" href="#">Каталог курсов</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-9 col-md-9 usermain">
+                            <div class="name">Артем Чудов</div>
+                            <div class="pencil"><a href="#"><img src="img/editprofile.png"></a></div>
+                            <div class="lastonline">заходил 23 сентября</div>
+                            <div class="adress">Россия, Ярославль, 28 лет</div>
+                            <div class="box-full">
+                                <div class="col-lg-12">
+                                    <div class="col-md-6">
+                                        <div class="col-lg-12">
+                                            <div class="col-md-5">
+                                                <p class="grey">Пол:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Мужской</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">День рождения:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>6 июля 1988</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">Email:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>artchubov@gmail.com</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">Телефон:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>+7 915 9901152</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="grey">Коротко о себе:</p>
+                                        <p>одинаково отображаюсь во всех браузерах, проинтегрирован с соцсетями</p>
+                                    </div>
+                                </div>
+
+                                <div class="collapse col-lg-12" id="collapseinfo">
+                                    <div class="col-md-6">
+                                        <div class="col-lg-12">
+                                            <div class="col-md-5">
+                                                <p class="grey">Пол:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Мужской</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">День рождения:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>6 июля 1988</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">Email:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>artchubov@gmail.com</p>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <p class="grey">Телефон:</p>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>+7 915 9901152</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="grey">Соцсети:</p>
+                                        <p>одинаково отображаюсь во всех браузерах, проинтегрирован с соцсетями</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 fullbox">
+                            <button aria-expanded="false" type="button" class="showmore" data-toggle="collapse" data-target="#collapseinfo"><span>Развернуть</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="box-full courses">
+                                <div class="col-lg-12">
+                                    <div class="tabs">
+                                        <h2>Мои курсы</h2>
+                                        <div class="countcrs">32</div>
+                                        <ul class="tabs__caption">
+                                            <li class="active">Изучаю</li>
+                                            <li>Изучил</li>
+                                            <li>Преподаю</li>
+                                            <li>Автор</li>
+                                        </ul>
+
+                                        <div class="tabs__content  active">
+                                                <div class="col-lg-12">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/rec1.jpg">
+                                                            <div class="crscontent">
+                                                                <h3>Генетика для школьников</h3>
+                                                                <p>Базовый курс генетики для начинающих</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec2.png">
+                                                            <div class="crscontent">
+                                                                <h3>Основы механики</h3>
+                                                                <p>Базовый курс механики или как бросать мячик</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec3.png">
+                                                            <div class="crscontent">
+                                                                <h3>Программирование для Андроид</h3>
+                                                                <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec1.png">
+                                                            <div class="crscontent">
+                                                                <h3>Генетика для школьников</h3>
+                                                                <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="collapse col-lg-12" id="showcourses1">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/rec1.png">
+                                                            <div class="crscontent">
+                                                                <h3>Генетика для школьников</h3>
+                                                                <p>Базовый курс генетики для начинающих</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec2.png">
+                                                            <div class="crscontent">
+                                                                <h3>Основы механики</h3>
+                                                                <p>Базовый курс механики или как бросать мячик</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec3.png">
+                                                            <div class="crscontent">
+                                                                <h3>Программирование для Андроид</h3>
+                                                                <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/rec1.png">
+                                                            <div class="crscontent">
+                                                                <h3>Генетика для школьников</h3>
+                                                                <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                        <span class="sr-only">60% Complete</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <button aria-expanded="false" type="button" class="showcourses" data-toggle="collapse" data-target="#showcourses1"><span>Развернуть список</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                        </div>
+
+                                        <div class="tabs__content">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="collapse col-lg-12" id="showcourses2">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <button aria-expanded="false" type="button" class="showcourses" data-toggle="collapse" data-target="#showcourses2"><span>Развернуть список</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                        </div>
+
+                                        <div class="tabs__content">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="collapse col-lg-12" id="showcourses3">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <button aria-expanded="false" type="button" class="showcourses" data-toggle="collapse" data-target="#showcourses3"><span>Развернуть список</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                        </div>
+
+                                        <div class="tabs__content">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="collapse col-lg-12" id="showcourses4">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Базовый курс генетики для начинающих</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec2.png">
+                                                        <div class="crscontent">
+                                                            <h3>Основы механики</h3>
+                                                            <p>Базовый курс механики или как бросать мячик</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec3.png">
+                                                        <div class="crscontent">
+                                                            <h3>Программирование для Андроид</h3>
+                                                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/rec1.png">
+                                                        <div class="crscontent">
+                                                            <h3>Генетика для школьников</h3>
+                                                            <p>Узнайте, какие горошинки родятся у папы-гороха и мамы-гороха</p>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                                    <span class="sr-only">60% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <button aria-expanded="false" type="button" class="showcourses" data-toggle="collapse" data-target="#showcourses4"><span>Развернуть список</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="box-full newsbox">
+                                <div class="col-lg-12">
+                                    <div class="tabs">
+                                        <h2>Новости</h2>
+                                        <ul class="tabs__caption">
+                                            <li class="active">Все записи</li>
+                                            <li>Мои записи</li>
+                                        </ul>
+                                        <div class="addnews">
+                                            <img src="img/userpic.png">
+                                            <div class="inputbox">
+                                                <input type="text" placeholder="Расскажите что-нибудь" class="txt">
+                                                <input type="submit" class="sbmbtn">
+                                            </div>
+                                        </div>
+                                        <div class="tabs__content  active">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>23 сентября в 14:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Всегда выполняю тесты и домашние задания сразу после прохождения курса. Потому что сразу покупаю следующий курс!
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>23 сентября в 14:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Начал обучение на курсе <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>23 сентября в 14:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Оставил комментарий к курсу <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>23 сентября в 14:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                             Закончил обучение на курсе <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tabs__content">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>24 сентября в 15:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Закончил обучение на курсе <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>24 сентября в 15:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Закончил обучение на курсе <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>25 сентября в 16:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Всегда выполняю тесты и домашние задания сразу после прохождения курса. Потому что сразу покупаю следующий курс!
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="newshead">
+                                                            <img src="img/userpic.png">
+                                                            <p><strong>Артем Чудов</strong></p>
+                                                            <p>26 сентября в 14:53</p>
+                                                        </div>
+                                                        <div class="newsintro">
+                                                            Начал обучение на курсе <strong>Генетика для школьников</strong>
+                                                        </div>
+                                                        <div class="sepline"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="col-xs-6 col-md-6 leftfooter">
+                            <img src="img/logo.png">
+                            <p>&copy; 2016 Клевер. Все права защищены.</p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 rightfooter">
+                            <a class="fb" href="#"></a>
+                            <a class="vk" href="#"></a>
+                            <a href="mailto:support@clever-e.com">support@clever-e.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/ie10-viewport-bug-workaround.js"></script>
+<script src="lib/fancybox/jquery.fancybox.pack.js"></script>
+<script src="lib/jquery-custom-scrollbar/jquery.custom-scrollbar.min.js"></script>
+<script src="lib/bootstrap-select.min.js"></script>
+<script src="lib/jquery.jcarousellite.min.js"></script>
+<script src="lib/ion.rangeSlider.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

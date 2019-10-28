@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Диалоги</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="lib/jquery-custom-scrollbar/jquery.custom-scrollbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/jquery/tether.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default no-margin">
+        <div class="container">
+            <div class="navbar-header fixed-brand">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"></button></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="logo"><a href="index.html"></a></div>
+                <div class="toplinks">
+                    <a href="selection.html">Каталог курсов</a>
+                    <a href="#">Преподователи</a>
+                </div>
+                <div class="profile">
+                    <div class="username">Артем Чудов</div>
+                    <div class="userpic"><a href="#"><img src="img/userpic.png"></a></div>
+                    <div class="userarrow"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                    <div class="userpopup">
+                        <a href="mypage.html">Моя страница</a>
+                        <a href="#">Выход</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div id="wrapper" class="toggled-2">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+                    <li>
+                        <a href="mypage.html"><span class="icon home"></span><div class="link">Моя страница</div></a>
+                    </li>
+                    <li>
+                        <a href="friends.html"><span class="icon friends"></span><div class="link">Друзья</div></a>
+                    </li>
+                    <li>
+                        <a href="dialog.html"><span class="icon dialog"></span><span class="countmsg">2</span><div class="link">Сообщения</div></a>
+                    </li>
+                    <li>
+                        <a href="passing.html"><span class="icon news"></span><div class="link">Новости</div></a>
+                    </li>
+                    <li>
+                        <a href="selection.html"><span class="icon list"></span><div class="link">Лист</div></a>
+                    </li>
+                    <li>
+                        <a href="edit.html"><span class="icon learning"></span><div class="link">Настройки</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon editor"></span><div class="link">Редактор</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon search"></span><div class="link">Поиск</div></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="col-lg-12">
+                        <div class="col-xs-3 col-md-3 sideleft2">
+                            <div class="title">Диалоги</div>
+                            <div class="pencil"><a href="#"><img src="img/editprofile.png"></a></div>
+                            <div class="box2 msgbox">
+                                <div class="tabs">
+                                    <ul class="tabs__caption">
+                                        <li class="active">Все</li>
+                                        <li>Непрочитанные</li>
+                                    </ul>
+
+                                    <div class="tabs__content  active">
+                                        <div class="col-lg-12 csroll default-skin">
+                                            <ul>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto3.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Михаил Ломоносов
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p>Спасибо за материалы к курсу</p>
+                                                    </div>
+                                                    <div class="msgcount">2</div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto2.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Григорий Перельман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p>А Пуанкаре не отказался бы от...</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg groupmsg">
+                                                        <img src="img/foto1.png">
+                                                        <img src="img/foto2.png">
+                                                        <img src="img/foto3.png">
+                                                        <img src="img/userpic.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="amount">
+                                                            15 участников
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <div class="msgname">
+                                                            Курс Генетика &laquo;нач...
+                                                        </div>
+                                                    </div>
+                                                    <p>Не могу решить задание из лекции №6, что...</p>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto3.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Михаил Ломоносов
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p>Спасибо за материалы к курсу</p>
+                                                    </div>
+                                                    <div class="msgcount">2</div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__content">
+                                        <div class="col-lg-12">
+                                            <ul>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto2.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Григорий Перельман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p>А Пуанкаре не отказался бы от...</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto1.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Анатолий Вассерман
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p class="selected">Вам достается кот в мешке!</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg groupmsg">
+                                                        <img src="img/foto1.png">
+                                                        <img src="img/foto2.png">
+                                                        <img src="img/foto3.png">
+                                                        <img src="img/userpic.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="amount">
+                                                            15 участников
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <div class="msgname">
+                                                            Курс Генетика &laquo;нач...
+                                                        </div>
+                                                    </div>
+                                                    <p>Не могу решить задание из лекции №6, что...</p>
+                                                </li>
+                                                <li>
+                                                    <div class="msgimg">
+                                                        <img src="img/foto3.png">
+                                                    </div>
+                                                    <div class="msgbody">
+                                                        <div class="msgname">
+                                                            Михаил Ломоносов
+                                                            <span class="msgtime">02:16</span>
+                                                        </div>
+                                                        <p>Спасибо за материалы к курсу</p>
+                                                    </div>
+                                                    <div class="msgcount">2</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 col-md-8 main2">
+                            <div class="msgfull">
+                                <div class="msgtop">
+                                    Григорий Перельман
+                                    <div class="actions">
+                                        Действия
+                                        <div class="actarrow"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                                <div class="msgwrap csroll2 default-skin">
+                                    <ul>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto1.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Я не дам тебе списать!</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                        <div class="msgimgfull">
+                                            <img src="img/foto2.png">
+                                        </div>
+                                        <div class="msgbodyfull">
+                                            <div class="msgnamefull">
+                                                Григорий Перельман
+                                                <span class="msgtime">02:16</span>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolorum earum, enim fuga illum, labore laudantium minus necessitatibus nesciunt nobis obcaecati quo vel. Ad nisi veniam voluptas voluptates voluptatibus?</p>
+                                        </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto3.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate ea officia perferendis saepe sit? Aperiam at nam nesciunt praesentium saepe. Accusantium aspernatur aut, cum officiis perferendis quibusdam soluta tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus laudantium quasi! Autem debitis explicabo iste laboriosam magni quaerat quam quibusdam unde. Corporis cupiditate modi odio quas quod unde veritatis!</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto1.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Я не дам тебе списать!</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto2.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Григорий Перельман
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolorum earum, enim fuga illum, labore laudantium minus necessitatibus nesciunt nobis obcaecati quo vel. Ad nisi veniam voluptas voluptates voluptatibus?</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto3.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate ea officia perferendis saepe sit? Aperiam at nam nesciunt praesentium saepe. Accusantium aspernatur aut, cum officiis perferendis quibusdam soluta tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus laudantium quasi! Autem debitis explicabo iste laboriosam magni quaerat quam quibusdam unde. Corporis cupiditate modi odio quas quod unde veritatis!</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto1.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Я не дам тебе списать!</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto2.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Григорий Перельман
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolorum earum, enim fuga illum, labore laudantium minus necessitatibus nesciunt nobis obcaecati quo vel. Ad nisi veniam voluptas voluptates voluptatibus?</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="msgimgfull">
+                                                <img src="img/foto3.png">
+                                            </div>
+                                            <div class="msgbodyfull">
+                                                <div class="msgnamefull">
+                                                    Артем Чудов
+                                                    <span class="msgtime">02:16</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate ea officia perferendis saepe sit? Aperiam at nam nesciunt praesentium saepe. Accusantium aspernatur aut, cum officiis perferendis quibusdam soluta tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus laudantium quasi! Autem debitis explicabo iste laboriosam magni quaerat quam quibusdam unde. Corporis cupiditate modi odio quas quod unde veritatis!</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="msgbottom">
+                                    <div class="inputbox">
+                                        <textarea placeholder="Введите сообщение..." class="txtarea"></textarea>
+                                        <div class="fileup"><input class="file" type="file" title="Прикрепить файл"></div>
+                                        <button class="smile"></button>
+                                    </div>
+                                    <input type="submit" class="sbmbtn">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="col-xs-6 col-md-6 leftfooter">
+                            <img src="img/logo.png">
+                            <p>&copy; 2016 Клевер. Все права защищены.</p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 rightfooter">
+                            <a class="fb" href="#"></a>
+                            <a class="vk" href="#"></a>
+                            <a href="mailto:support@clever-e.com">support@clever-e.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/ie10-viewport-bug-workaround.js"></script>
+<script src="lib/fancybox/jquery.fancybox.pack.js"></script>
+<script src="lib/jquery-custom-scrollbar/jquery.custom-scrollbar.min.js"></script>
+<script src="lib/bootstrap-select.min.js"></script>
+<script src="lib/jquery.jcarousellite.min.js"></script>
+<script src="lib/ion.rangeSlider.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

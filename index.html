@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Управление обучением</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/jquery/tether.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default no-margin">
+        <div class="container">
+            <div class="navbar-header fixed-brand">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"></button></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="logo"><a href="index.html"></a></div>
+                <div class="toplinks">
+                    <a href="selection.html">Каталог курсов</a>
+                    <a href="#">Преподователи</a>
+                </div>
+                <div class="profile">
+                    <div class="username">Артем Чудов</div>
+                    <div class="userpic"><a href="#"><img src="img/userpic.png"></a></div>
+                    <div class="userarrow"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                    <div class="userpopup">
+                        <a href="mypage.html">Моя страница</a>
+                        <a href="#">Выход</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div id="wrapper" class="toggled-2">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+                    <li>
+                        <a href="mypage.html"><span class="icon home"></span><div class="link">Моя страница</div></a>
+                    </li>
+                    <li>
+                        <a href="friends.html"><span class="icon friends"></span><div class="link">Друзья</div></a>
+                    </li>
+                    <li>
+                        <a href="dialog.html"><span class="icon dialog"></span><span class="countmsg">2</span><div class="link">Сообщения</div></a>
+                    </li>
+                    <li>
+                        <a href="passing.html"><span class="icon news"></span><div class="link">Новости</div></a>
+                    </li>
+                    <li>
+                        <a href="selection.html"><span class="icon list"></span><div class="link">Лист</div></a>
+                    </li>
+                    <li>
+                        <a href="edit.html"><span class="icon learning"></span><div class="link">Настройки</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon editor"></span><div class="link">Редактор</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon search"></span><div class="link">Поиск</div></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="col-lg-12" style="background: #fff">
+                        <div class="col-xs-3 col-md-9 aboutcrs">
+                            <div class="about">
+                                <div class="crsimg">
+                                    <img src="img/rec3.png" alt="">
+                                </div>
+                                <div class="crstitle">
+                                    Программирование для Андроид
+                                </div>
+                                <p>Пишем ваш первый троян или сниффер паролей</p>
+                                <div class="period">Период обучения:</div>
+                                <div class="studs">Студентов: <span>19 <a href="#"></a></span></div>
+                                <div class="crsdate">04.10.16 — 04.02.2017</div>
+                                <div class="vipusk">Выпускников: <span>26 <a href="#"></a></span></div>
+                            </div>
+                            <div class="prr">
+                                <h3>Программа курса</h3>
+                                <div class="write">
+                                    <a href="#"></a>
+                                    написать<br>сообщение<br>всем студентам
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-3 teacher">
+                            <h3>Препдователи</h3>
+                            <button class="prev">&laquo;</button>
+                            <div class="tslider">
+                                <ul>
+                                    <li>
+                                        <img src="img/foto3.png" style="width:60px; height:60px;">
+                                        <p>Стивен Хокинг</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/foto2.png" style="width:60px; height:60px;">
+                                        <p>Григорий Перельман</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/foto1.png" style="width:60px; height:60px;">
+                                        <p>Анатолий Вассерман</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="next">&raquo;</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12" style="float: left; width: 100%; margin-bottom: 50px">
+                        <div class='rg-container studlist'>
+                            <div class='rg-content'>
+                                <table class='rg-table'>
+                                    <thead>
+                                    <th class='text'>Студенты</th>
+                                    <th class='text'>Тест 1</th>
+                                    <th class='text'>Тест 2</th>
+                                    <th class='text'>Финальный тест</th>
+                                    <th class='text'>Отметка о<br>завершении</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class='col-md-4 .col-sm-4' data-title='Студент'>
+                                                <div class="mobilefix">
+                                                    <span class="studcount">1</span>
+                                                    <div class="studimg">
+                                                        <img src="img/userpic.png" alt="">
+                                                    </div>
+                                                    <div class="studname">
+                                                        Артем Чудов
+                                                        <p>04.10.16 — 04.02.17</p>
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class='text col-md-2 .col-sm-2' data-title='Тест 1'>
+                                                <span class="orange">
+                                                    6 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text col-md-2 .col-sm-2' data-title='Тест 2'></td>
+                                            <td class='text col-md-2 .col-sm-2' data-title='Финальный тест'></td>
+                                            <td data-title='Отметка о завершении'>
+                                                <span class="sign"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text' data-title='Студент'>
+                                                <div class="mobilefix">
+                                                    <span class="studcount">2</span>
+                                                    <div class="studimg">
+                                                        <img src="img/userpic.png" alt="">
+                                                    </div>
+                                                    <div class="studname">
+                                                        Артем Чудов
+                                                        <p>04.10.16 — 04.02.17</p>
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class='text' data-title='Тест 1'>
+                                                <span class="orange">
+                                                    6 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Тест 2'>
+                                                <span class="red">
+                                                    3 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Финальный тест'>
+                                                <span class="blue">
+                                                    8 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Отметка о завершении'>
+                                                <span class="sign"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text' data-title='Студент'>
+                                                <div class="mobilefix">
+                                                    <span class="studcount">3</span>
+                                                    <div class="studimg">
+                                                        <img src="img/userpic.png" alt="">
+                                                    </div>
+                                                    <div class="studname">
+                                                        Артем Чудов
+                                                        <p>04.10.16 — 04.02.17</p>
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class='text' data-title='Тест 1'>
+                                                <span class="orange">
+                                                    6 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Тест 2'>
+                                                <span class="red">
+                                                    3 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Финальный тест'></td>
+                                            <td class='text' data-title='Отметка о завершении'>
+                                                <span class="sign"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text' data-title='Студент'>
+                                                <div class="mobilefix">
+                                                    <span class="studcount">4</span>
+                                                    <div class="studimg">
+                                                        <img src="img/userpic.png" alt="">
+                                                    </div>
+                                                    <div class="studname">
+                                                        Артем Чудов
+                                                        <p>04.10.16 — 04.02.17</p>
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class='text' data-title='Тест 1'>
+                                                <span class="blue">
+                                                    8 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Тест 2'></td>
+                                            <td class='text' data-title='Финальный тест'></td>
+                                            <td class='text' data-title='Отметка о завершении'>
+                                                <span class="sign"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text' data-title='Студент'>
+                                                <div class="mobilefix">
+                                                    <span class="studcount">5</span>
+                                                    <div class="studimg">
+                                                        <img src="img/userpic.png" alt="">
+                                                    </div>
+                                                    <div class="studname">
+                                                        Артем Чудов
+                                                        <p>04.10.16 — 04.02.17</p>
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class='text' data-title='Тест 1'>
+                                                <span class="orange">
+                                                    6 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Тест 2'>
+                                                <span class="red">
+                                                    3 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Финальный тест'>
+                                                <span class="blue">
+                                                    8 из 10
+                                                </span>
+                                                <p class="studdate">
+                                                    23.09.16
+                                                </p>
+                                            </td>
+                                            <td class='text' data-title='Отметка о завершении'>
+                                                <span class="sign"></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="col-xs-6 col-md-6 leftfooter">
+                            <img src="img/logo.png">
+                            <p>&copy; 2016 Клевер. Все права защищены.</p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 rightfooter">
+                            <a class="fb" href="#"></a>
+                            <a class="vk" href="#"></a>
+                            <a href="mailto:support@clever-e.com">support@clever-e.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/ie10-viewport-bug-workaround.js"></script>
+<script src="lib/fancybox/jquery.fancybox.pack.js"></script>
+<script src="lib/jquery-custom-scrollbar/jquery.custom-scrollbar.min.js"></script>
+<script src="lib/bootstrap-select.min.js"></script>
+<script src="lib/jquery.jcarousellite.min.js"></script>
+<script src="lib/ion.rangeSlider.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

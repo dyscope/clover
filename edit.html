@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Редактор курса</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/jquery/tether.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default no-margin">
+        <div class="container">
+            <div class="navbar-header fixed-brand">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"></button></li>
+                </ul>
+            </div>
+
+            <div class="header">
+                <div class="logo"><a href="index.html"></a></div>
+                <div class="toplinks">
+                    <a href="selection.html">Каталог курсов</a>
+                    <a href="#">Преподователи</a>
+                </div>
+                <div class="profile">
+                    <div class="username">Артем Чудов</div>
+                    <div class="userpic"><a href="#"><img src="img/userpic.png"></a></div>
+                    <div class="userarrow"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                    <div class="userpopup">
+                        <a href="mypage.html">Моя страница</a>
+                        <a href="#">Выход</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div id="wrapper" class="toggled-2">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+                    <li>
+                        <a href="mypage.html"><span class="icon home"></span><div class="link">Моя страница</div></a>
+                    </li>
+                    <li>
+                        <a href="friends.html"><span class="icon friends"></span><div class="link">Друзья</div></a>
+                    </li>
+                    <li>
+                        <a href="dialog.html"><span class="icon dialog"></span><span class="countmsg">2</span><div class="link">Сообщения</div></a>
+                    </li>
+                    <li>
+                        <a href="passing.html"><span class="icon news"></span><div class="link">Новости</div></a>
+                    </li>
+                    <li>
+                        <a href="selection.html"><span class="icon list"></span><div class="link">Лист</div></a>
+                    </li>
+                    <li>
+                        <a href="edit.html"><span class="icon learning"></span><div class="link">Настройки</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon editor"></span><div class="link">Редактор</div></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon search"></span><div class="link">Поиск</div></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="col-lg-12" style="margin-bottom: 20px">
+                        <div class="col-xs-3 col-md-9 aboutcrs aboutcrs2 edit">
+                            <div class="crsimg">
+                                <img src="img/rec3.png" alt="">
+                                <a class="edit" href="#">изменить</a>
+                            </div>
+                            <div class="crstitle">
+                                Программирование для Андроид
+                                <span>Черновик</span>
+                            </div>
+                            <p>Пишем ваш первый троян или сниффер паролей</p>
+                            <div class="period">Длительность обучения:</div>
+                            <div class="progres">14 дней</div>
+                            <div class="col-lg-12 bottoml">
+                                <a href="#">Отправить на модерацию</a>
+                                <a href="#">Посмотреть на сайте</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-3 editlinks">
+                            <a class="remove" href="#">Удалить курс</a>
+                            <a href="#">Изменить описание</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="col-xs-3 col-md-3 sideleft leftmenu">
+                            <div class="box">
+                                <h2>Содержание курса</h2>
+                                <ul>
+                                    <li class="active"><a href="#">&ndash;&nbsp;&nbsp;Введение</a></li>
+                                    <li><a href="#">&ndash;&nbsp;&nbsp;Для кого этот курс</a></li>
+                                    <li><a href="#"><i class="fa fa-sort-desc" aria-hidden="true"></i>&nbsp;<span>Рабочая среда</span></a></li>
+                                    <li><a href="#"><i class="fa fa-sort-desc" aria-hidden="true"></i>&nbsp;<span>Написание кода</span></a></li>
+                                    <li class="flag"><a href="#"><i class="fa fa-sort-desc" aria-hidden="true"></i>&nbsp;<span>Базы данных</span></a></li>
+                                    <li><a href="#"><i class="fa fa-sort-desc" aria-hidden="true"></i>&nbsp;<span>Публикация в Play<br> Market</span></a></li>
+                                </ul>
+                                <a class="plus" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-9 col-md-9 maincontent">
+                            <div class="box-full">
+                                <h1>Глава 1. Введение в разработку троянов</h1>
+                                <span class="edlink"><a href="#"></a></span>
+                                <span class="remlink"><a href="#"></a></span>
+                                <div class="topcont">
+                                    <ul>
+                                        <li class="active"><a href="#">Материалы урока</a></li>
+                                        <li><a href="#">Тест к уроку</a></li>
+                                        <li><a href="#">Практика к уроку</a></li>
+                                    </ul>
+                                </div>
+                                <p>Мониторинг активности отражает охват аудитории. Коммуникация порождает культурный нишевый проект. Целевой сегмент рынка, в рамках сегодняшних воззрений, синхронизирует рекламный блок, не считаясь с затратами. Маркетинговая активность, следовательно, экономит рыночный потребительский рынок.</p>
+                                <p>Рейтинг основан на анализе телесмотрения. Потребительский рынок, конечно, изменяет бюджет на размещение, учитывая результат предыдущих медиа-кампаний. Стимулирование сбыта искажает связанный стиль менеджмента. Не факт, что сегментация рынка существенно развивает эмпирический процесс стратегического планирования. Представляется логичным, что узнавание бренда специфицирует ребрендинг.</p>
+                                <p>Несмотря на сложности, стратегическое планирование программирует культурный имидж. Практика однозначно показывает, что торговая марка позиционирует формирование имиджа. Маркетинговая коммуникация без оглядки на авторитеты все еще интересна для многих. Анализ зарубежного опыта, отбрасывая подробности, по-прежнему устойчив к изменениям спроса. Адекватная ментальность, как следует из вышесказанного, откровенна. Корпоративная культура охватывает креативный медиаплан, оптимизируя бюджеты.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="col-xs-6 col-md-6 leftfooter">
+                            <img src="img/logo.png">
+                            <p>&copy; 2016 Клевер. Все права защищены.</p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 rightfooter">
+                            <a class="fb" href="#"></a>
+                            <a class="vk" href="#"></a>
+                            <a href="mailto:support@clever-e.com">support@clever-e.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/ie10-viewport-bug-workaround.js"></script>
+<script src="lib/fancybox/jquery.fancybox.pack.js"></script>
+<script src="lib/jquery-custom-scrollbar/jquery.custom-scrollbar.min.js"></script>
+<script src="lib/bootstrap-select.min.js"></script>
+<script src="lib/jquery.jcarousellite.min.js"></script>
+<script src="lib/ion.rangeSlider.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
